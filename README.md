@@ -1,1 +1,2 @@
-# GenAI
+# CONS GENERATOR FROM PRODUCT REVIEWS:
+This Python script uses Hugging Face's transformers library to extract the cons only from a product review using the google/flan-t5-large model via a text2text-generation pipeline. It defines a multi-line review of a Bluetooth speaker, which includes both positive and negative points, and then constructs a prompt instructing the model specifically to extract only the cons. The prompt is passed to the model with a maximum token limit of 150, and the output is cleaned and displayed. The result highlights the negative aspects (such as connectivity issues) of the product, making it useful for applications like review summarization or sentiment analysis focused on product drawbacks.
